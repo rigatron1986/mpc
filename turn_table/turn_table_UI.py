@@ -73,7 +73,7 @@ class TurnTableUI(QtWidgets.QDialog):
         self.turn_h_layout_01.addWidget(self.turn_angel_le)
         self.turn_angel_slider = QtWidgets.QSlider(self)
         self.turn_angel_slider.setMinimum(1)
-        self.turn_angel_slider.setMaximum(120)
+        self.turn_angel_slider.setMaximum(360)
         self.turn_angel_slider.setOrientation(QtCore.Qt.Horizontal)
         self.turn_h_layout_01.addWidget(self.turn_angel_slider)
         self.vertical_layout_01.addLayout(self.turn_h_layout_01)
